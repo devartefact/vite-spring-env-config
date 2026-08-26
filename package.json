@@ -2,6 +2,14 @@
   "name": "vite-spring-env-config",
   "version": "0.1.0",
   "description": "Load Spring-provided runtime configuration in Vite browser applications.",
+  "homepage": "https://github.com/devartefact/vite-spring-env-config#readme",
+  "bugs": {
+    "url": "https://github.com/devartefact/vite-spring-env-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devartefact/vite-spring-env-config.git"
+  },
   "keywords": [
     "vite",
     "spring",
