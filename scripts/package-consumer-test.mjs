@@ -43,6 +43,7 @@ try {
     [
       npmCli,
       'pack',
+      '--dry-run=false',
       '--ignore-scripts',
       '--json',
       '--pack-destination',
@@ -142,6 +143,7 @@ if (greeting !== 'Bonjour 👋' || typeCheck.enabled !== true) {
     [
       npmCli,
       'install',
+      '--dry-run=false',
       '--ignore-scripts',
       '--no-audit',
       '--no-fund',

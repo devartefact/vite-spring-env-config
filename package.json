@@ -40,7 +40,7 @@
     "test:dist": "node scripts/smoke-test.mjs",
     "test:package": "node scripts/package-consumer-test.mjs",
     "package:check": "publint",
-    "types:check": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
+    "types:check": "node scripts/check-package-types.mjs",
     "check": "run-s format:check lint typecheck test:coverage build test:dist test:package package:check types:check",
     "prepack": "npm run build",
     "prepublishOnly": "npm run check"
